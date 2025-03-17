@@ -1,0 +1,17 @@
+{
+    "date_column": "Prog. Date",
+    "duration_column": "Duration",
+    "time_column": "Time",
+    "advt_theme_column": "Commerial Name",
+    "program_column": "Program Name",
+    "duration_format": "hh:mm:ss",
+    "handle_nan_duration": true,
+    "remove_milliseconds": true,
+    "rename_columns": {
+        
+    },
+    "additional_transformations": {
+        "normalize_case": true,
+        "convert_time_format": true
+    }
+   }
