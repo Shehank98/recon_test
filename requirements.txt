@@ -12,4 +12,5 @@ python-dateutil==2.9.0.post0
 python-Levenshtein==0.27.1
 simplejson==3.20.1
 streamlit==1.43.2
+xlrd>=2.0.1
 
