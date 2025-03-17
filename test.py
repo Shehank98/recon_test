@@ -214,7 +214,7 @@ def match_tc_with_lmrb(tc_df, lmrb_df):
      # Weighted overall similarity score
      program_weight = 0.5
      advt_theme_weight = 0.3
-     duration_weight = 0.2
+     duration_weight = 1
      date_matched_lmrb['overall_similarity'] = (
          date_matched_lmrb['program_similarity'] * program_weight +
          date_matched_lmrb['advt_theme_similarity'] * advt_theme_weight +
