@@ -1,0 +1,13 @@
+{
+    "date_column": "DATE",
+    "time_column": "Advt_time",  
+    "advt_theme_column": "PRODUCT",
+    "rename_columns": {
+        "TC TIME": "Advt_time"
+    },
+    "additional_transformations": {
+        "normalize_case": false,
+        "convert_time_format": true
+    },
+    "time_belt_interval_minutes": 30
+   }
